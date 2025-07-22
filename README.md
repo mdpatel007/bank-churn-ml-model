@@ -42,12 +42,12 @@ This project offers a robust solution to predict churn by:
   - `numpy` – Numerical operations  
   - `scikit-learn` – Model building & evaluation  
   - `matplotlib`, `seaborn` – Data visualization  
-  - `[Other libraries: xgboost, lightgbm, tensorflow, keras, imbalanced-learn, etc.]`
+  - `Other libraries: xgboost, lightgbm, tensorflow, keras, imbalanced-learn, etc.`
 
 ---
 
 ## 📊 Dataset
-- **Dataset Name**: *[e.g., Bank Customer Churn Dataset(kaggle)]*  
+- **Dataset Name**: *[Bank Customer Churn Dataset(kaggle)]*  
 - **Shape**: *[10,000 rows × 12 columns]*  
 - **Source**: [Dataset Link]([https://www.kaggle.com/datasets/shubhamghimire/bank-customer-churn-dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset?resource=download))
 
@@ -71,8 +71,8 @@ The dataset includes:
 ## ⚙️ Data Preprocessing
 Key preprocessing steps:
 - **Categorical Encoding**: One-Hot Encoding for `Country ` and `Gender`.
-- **Feature Scaling**: Applied **[StandardScaler]** to normalize numeric values.
-- **Class Imbalance Handling**: Used **[SMOTE]** to balance the 'Exited' class.
+- **Feature Scaling**: Applied **StandardScaler** to normalize numeric values.
+- **Class Imbalance Handling**: Used **SMOTE** to balance the 'Exited' class.
 
 ---
 
